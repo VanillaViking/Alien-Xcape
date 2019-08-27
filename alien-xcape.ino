@@ -4,7 +4,7 @@ Gamebuino gb;
 
 //bitmap encoded using the Bitmap Encoder which can be found here : http://gamebuino.com/wiki/index.php?title=Download
 const byte pointerBitmap[] PROGMEM = {5,5, 0x50, 0xF8, 0xA8, 0x70, 0x88,};
-int move_array[5] = {0, 17, 34, 51, 68};
+int move_array[5] = {0, 17, 34, 51, 68}; //Array for the positions of each lane
 void setup(){
   gb.begin();
   gb.titleScreen(F("Bitmap example"));
