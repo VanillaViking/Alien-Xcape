@@ -45,7 +45,7 @@ void loop() {
     if (gb.collideRectRect(move_array[lane], 40, 5, 5, move_array[enemy_x], enemy_y, 7, 6)) {
       gb.display.clear();
       gb.titleScreen(F("you dieded lol"));
-      enemy_y = 0;
+      enemy_x = 0;
     }
 
     //don't forget to allow the user to get back to the title screen when C is used :
